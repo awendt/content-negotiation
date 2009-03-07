@@ -1,0 +1,11 @@
+content-negotiation
+===================
+
+This Rails plugin adds convenience methods for content negotiation to ActionController::Base
+
+Within your controllers, use client_accepted_languages to determine
+the HTTP_ACCEPT_LANGUAGE header sent by the client.
+
+It calls the (memoized) parse_http_accept_language_header in turn.
+
+Copyright (c) 2009 André Wendt, released under the MIT license
